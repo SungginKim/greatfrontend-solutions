@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+.traffic-light {
+  width: 80px;
+  height: 200px;
+  background-color: black;
+  border: solid 5px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lights {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 100%;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
