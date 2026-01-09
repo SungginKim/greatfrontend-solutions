@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+.digit{
+  position: relative;
+  width: 20px;
+  height: 30px;
+}
+.clock{
+  background-color: black;
+  display: flex;
+  width: fit-content;
+  height: 40px;
+  justify-content: center;
+  padding: 5px;
+  border: solid gray 3px;
+  border-radius: 5px;
+}
+
+.segment{
+  margin-top: 5px;
+  position: absolute;
+}
+.on{background-color: white;}
+
+.off{background-color: #333;}
+
+
+.a {width: 12px; height: 2px; top: 0px; left: 4px;}
+.g {width: 12px; height: 2px; top: 15px; left: 4px;}
+.d {width: 12px; height: 2px; top: 30px; left: 4px;}
+
+.b {width: 2px; height: 12px; top: 2px; left: 18px;}
+.c {width: 2px; height: 12px; top: 16px; left: 18px;}
+.e {width: 2px; height: 12px; top: 16px; left: 2px;}
+.f {width: 2px; height: 12px; top: 2px; left: 2px;}
+
+.colon{
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
+.semicolon{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 2px;
+  padding-right: 2px;
+}
