@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+
+.like-btn{
+  border-radius: 30px;
+  height: 33px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: #888 solid;
+  color: #888;
+  cursor: pointer;
+}
+
+.heart .spinner{
+  color: #888;
+}
+
+.like-btn:hover{
+  border: #f00 solid;
+  color: #f00;
+}
+
+
+.liked{
+  background-color: #f00;
+  border: #f00 solid;
+  color: white;
+}
+
+.liked:hover{
+  background-color: #f00;
+  border: #f00 solid;
+  color: white;
+}
+
+
+
+
