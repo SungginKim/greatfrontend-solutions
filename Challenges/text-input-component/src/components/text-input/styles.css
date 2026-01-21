@@ -1,0 +1,96 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+@import "tailwindcss";
+body {
+  margin: 0;
+  font-family:
+    "Noto Sans",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.text-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text-input-container input {
+  border: #e6e6e6 solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+  min-width: 350px;
+  background-color: #fafafa;
+}
+
+.text-input-container input:disabled {
+  border: 0px;
+}
+
+.text-input-container input:focus {
+  outline: #2684ff solid;
+}
+
+.text-input-container input.input-has-leading-icon {
+  padding: 5px 5px 5px 40px;
+}
+
+.text-input-container
+input.input-has-error:focus {
+  outline: #de3737 solid;
+}
+
+.input-container {
+  position: relative;
+  width: fit-content;
+}
+
+.email-icon {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  color: #a7a7a7;
+}
+
+.question-icon {
+  position: absolute;
+  top: 25%;
+  left: 90%;
+  color: #a7a7a7;
+}
+
+.hint-text {
+  color: #a1a1a1;
+}
+
+.error {
+  color: #de3737;
+}
